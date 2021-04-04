@@ -1,0 +1,39 @@
+.form-agreement {
+    position: relative;
+}
+
+.check-box {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    transform: translateY(-50%);
+
+    cursor: pointer;
+
+    width: 16px;
+    height: 15px;
+    background-image: url(../images/icons/modal-window/not-check.svg);
+
+    transition: background-image 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        border-radius 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:focus {
+        transform: scale(1.1);
+    }
+}
+
+.form-agreement__check-input:checked ~ .check-box {
+    border-radius: 2px;
+
+    background-color: $accent-color;
+
+    background-image: url(../images/icons/modal-window/check.svg);
+}
+
+.form-agreement__check-input:focus ~ .check-box {
+    outline: 3px dotted blue;
+}
+
+.check-box__icon {
+    display: block;
+}

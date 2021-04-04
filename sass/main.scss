@@ -8,19 +8,19 @@
 @import "./utils/visually-hidden";
 
 //container
-@import "./utils/container";
+@import "./components/container";
 
 //btn
-@import "./utils/btn";
+@import "./components/btn";
 
 //section
-@import "./utils/section";
+@import "./components/section";
 
 //section__title
-@import "./utils/section__title";
+@import "./components/section__title";
 
 //subscribe__title
-@import "./utils/./subscribe__title";
+@import "./components/subscribe__title";
 
 //body
 @import "./components/body";
@@ -36,26 +36,26 @@
 
 //STUDIO
 //hero
-@import "./components/studio/hero";
+@import "./components/hero";
 //features
-@import "./components/studio/features";
+@import "./components/features";
 //services
-@import "./components/studio/services";
+@import "./components/services";
 //team-members
-@import "./components/studio/team-members";
+@import "./components/team-members";
 //customers
-@import "./components/studio/customers";
+@import "./components/customers";
 
 //modal-window
-@import "./utils/modal-window/modal-window";
+@import "./components/modal-window/modal-window";
 //backdrop
-@import "./utils/modal-window/backdrop";
+@import "./components/modal-window/backdrop";
 //modal-window__form-label
-@import "./utils/modal-window/modal-window__form-label";
+@import "./components/modal-window/modal-window__form-label";
 //modal-window__form-input
-@import "./utils/modal-window/modal-window__form-input";
+@import "./components/modal-window/modal-window__form-input";
 //check-box
-@import "./utils/modal-window/form-agreement-check-box";
+@import "./components/modal-window/form-agreement-check-box";
 
 //page-footer
 @import "./components/page-footer/page-footer";
@@ -68,8 +68,8 @@
 
 //PORTFOLIO
 //filters-btn
-@import "./components/portfolio/filters-btn";
+@import "./components/filters-btn";
 //card__overlay
-@import "./components/portfolio/card-set/card__overlay";
+@import "./components/card-set/card__overlay";
 //cards-set
-@import "./components/portfolio/card-set/cards-set";
+@import "./components/card-set/cards-set";
